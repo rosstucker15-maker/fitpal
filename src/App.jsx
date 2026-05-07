@@ -214,6 +214,7 @@ const css = `
     padding:13px 20px 22px; background:var(--white);
     border-top:1.5px solid var(--border); display:flex; gap:9px; align-items:flex-end;
     box-shadow:0 -2px 10px rgba(0,0,0,.05);
+    position:sticky; bottom:0;
   }
   .ci { flex:1; background:var(--bg); border:2px solid var(--border); border-radius:15px; padding:12px 15px; color:var(--dark); font-family:var(--B); font-size:14px; resize:none; outline:none; transition:border-color .2s; min-height:46px; max-height:110px; }
   .ci:focus { border-color:var(--blue); }
