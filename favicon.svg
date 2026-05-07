@@ -1,0 +1,7 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="200" height="200" rx="44" fill="white"/>
+  <rect x="0" y="0" width="200" height="200" rx="44" fill="none" stroke="#e8e8e8" stroke-width="3"/>
+  <text x="66" y="108" font-family="Fredoka One, sans-serif" font-size="78" fill="#1a56ff" text-anchor="middle">F</text>
+  <text x="136" y="108" font-family="Fredoka One, sans-serif" font-size="78" fill="#e8182c" text-anchor="middle">P</text>
+  <path d="M 52,128 C 52,168 148,168 148,128" stroke="#111111" stroke-width="6.5" fill="none" stroke-linecap="round"/>
+</svg>
