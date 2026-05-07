@@ -182,7 +182,7 @@ const css = `
   .gen-sub { color:var(--mid); font-size:14px; }
 
   /* ── CHAT ── */
-  .chat-wrap { display:flex; flex-direction:column; height:100vh; }
+  .chat-wrap { display:flex; flex-direction:column; height:calc(100vh - 72px); }
   .chat-top {
     padding:16px 22px 14px; display:flex; align-items:center; gap:13px;
     border-bottom:1.5px solid var(--border); background:var(--white);
