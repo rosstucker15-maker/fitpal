@@ -422,7 +422,7 @@ export default function FitPal() {
     const h=[...msgs,um];
     setMsgs(h); setInput(""); setTyping(true);
     try {
-      const api=h.map(m=>({role:m.role==="assistant"?"assistant":"user",content:m.content}));
+      const api=h.slice(-6).map(m=>({role:m.role==="assistant"?"assistant":"user",content:m.content}));
       const reply=await chat(api,coach.system,profile,provider);
       setMsgs(p=>[...p,{role:"assistant",content:reply,time:now()}]);
     } catch { setMsgs(p=>[...p,{role:"assistant",content:"Hit a snag! Try again 💪",time:now()}]); }
